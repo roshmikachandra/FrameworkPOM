@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  
+<suite name="Regression1" verbose="1" >
+  <test name="FBTest" >
+    <classes>
+       <class name="com.facebook.test.LoginTest" />
+    </classes>
+  </test>
+  </suite>
+ 
+  
+
