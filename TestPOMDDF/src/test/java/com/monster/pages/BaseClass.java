@@ -1,13 +1,13 @@
-package com.facebook.pages;
+package com.monster.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
-import com.facebook.utils.BrowserFactory;
-import com.facebook.utils.ConfigFile;
-import com.facebook.utils.ExcelDataProvider;
+import com.monster.utils.BrowserFactory;
+import com.monster.utils.ConfigFile;
+import com.monster.utils.ExcelDataProvider;
 
 public class BaseClass {
 	

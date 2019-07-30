@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.facebook.test.LoginTest">
+      <class name="com.chase.test.LoginTest">
         <methods>
-          <include name="checkValidLogin"/>
           <include name="tearDown"/>
-          <include name="setUpSuite"/>
           <include name="setUp"/>
+          <include name="checkValidLogin" invocation-numbers="0 1"/>
+          <include name="setUpSuite"/>
         </methods>
-      </class> <!-- com.facebook.test.LoginTest -->
+      </class> <!-- com.chase.test.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

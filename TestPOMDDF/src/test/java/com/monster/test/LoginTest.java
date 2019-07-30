@@ -1,13 +1,14 @@
-package com.facebook.test;
+package com.monster.test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.facebook.pages.BaseClass;
-import com.facebook.pages.LoginPage;
-import com.facebook.utils.BrowserFactory;
+import com.monster.pages.BaseClass;
+import com.monster.pages.LoginPage;
+import com.monster.utils.BrowserFactory;
 
 public class LoginTest extends BaseClass {
 	
@@ -22,7 +23,10 @@ public class LoginTest extends BaseClass {
 		
 		//call the method of the login page 
 		
-		loginPage.login_FB(userName, passWord);
+		loginPage.login_hired(userName, passWord);
+		
+		//validate results
+		//Assert.assertEquals(actual, expected);
 		
 	}
 		@DataProvider(name="invalidCred")
