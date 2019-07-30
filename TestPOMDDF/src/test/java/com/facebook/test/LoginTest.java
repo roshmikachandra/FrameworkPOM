@@ -33,7 +33,7 @@ public class LoginTest extends BaseClass {
 			for(int i=0;i<rows;i++)
 			{
 				testData[i][0]= excel.getStringData(0, i, 0);
-				testData[i][1]= excel.getStringData(0, i, 0);
+				testData[i][1]= excel.getStringData(0, i, 1);
 				
 			}
 			return testData;
